@@ -1,5 +1,5 @@
 import { useQuery } from "@apollo/react-hooks";
-import { GET_POSTS_QUERY } from "./query";
+import { GET_POSTS_QUERY } from "./querys";
 
 function Posts() {
   const { data, loading, error } = useQuery(GET_POSTS_QUERY);
